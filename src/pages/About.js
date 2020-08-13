@@ -1,5 +1,6 @@
 import React from "react";
 import headshot from "../assets/images/headshot.png"
+import resume from "../assets/resume/Full-Stack-Resume.pdf"
 
 const About = () => (
   <section className="container-lg" id="container">
@@ -49,8 +50,9 @@ const About = () => (
                 Feel free to check out my
                 <i className="fa fa-file-pdf-o" aria-hidden="true"></i>
                 <a 
-                  href="./assets/resume/Full-Stack Resume.pdf"
+                  href={resume}
                   target="_blank"
+                  rel="noopener noreferrer" 
                   >Resume</a>
                 <br />
                 Contact me at:
@@ -58,11 +60,13 @@ const About = () => (
                 <a 
                   href="mailto:billyleondike@gmail.com?subject=Mail from my Website"
                   target="_blank"
+                  rel="noopener noreferrer" 
                   >billyleondike@gmail.com</a>
                 <i className="fa fa-mobile fa-lg" aria-hidden="true"></i>
                 <a 
                   href="tel:386-405-4144"
                   target="_blank"
+                  rel="noopener noreferrer"
                   >386-405-4144</a> 
                 <br /> 
                 Follow these links to my
@@ -70,12 +74,14 @@ const About = () => (
                 <a
                   href="https://linkedin.com/in/williamleondike"
                   target="_blank"
+                  rel="noopener noreferrer"
                   >LinkedIn</a>
                 and
                 <i className="fa fa-github" aria-hidden="true"></i>
                 <a 
                   href="https://github.com/WLeondike" 
-                  target="_blank" 
+                  target="_blank"
+                  rel="noopener noreferrer" 
                   >GitHub</a>
                 profile pages.
               </p>

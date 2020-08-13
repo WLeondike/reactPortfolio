@@ -3,17 +3,9 @@ import React from "react";
 function NavTabs(props) {
   return (
     <ul className="nav nav-tabs bg-dark">
-      <li className="nav-item">
-        <a
-          href="#home"
-          onClick={() => props.handlePageChange("Home")}
-          className={
-            props.currentPage === "Home" ? "nav-link active" : "nav-link"
-          }
-        >
+      <h2 className="nav-item ml-5 mediumaquamarine" id="headerFont">
           William Leondike
-        </a>
-      </li>
+      </h2>
       <li className="nav-item">
         <a
           href="#about"
