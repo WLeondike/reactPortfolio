@@ -2,7 +2,7 @@ import React from "react";
 
 function NavTabs(props) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs bg-dark">
       <li className="nav-item">
         <a
           href="#home"
@@ -23,6 +23,17 @@ function NavTabs(props) {
           }
         >
           About
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#Portfolio"
+          onClick={() => props.handlePageChange("Portfolio")}
+          className={
+            props.currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+          }
+        >
+          Portfolio
         </a>
       </li>
       <li className="nav-item">

@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+/* background image for the page */
+body {
+    background-image: url('./assets/images/beach.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* visited link */
+a {
+  color: sandybrown;
+}
+
+/* mouse over link */
+a:hover {
+  color: mediumaquamarine;
+}
+
+/* header and Name font */
+#headerFont{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
+/* clearfix */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* expands nav bar across the whole screen */
+.navbar{
+  width:100%
+}
+
+.mediumaquamarine{
+    color: mediumaquamarine !important;
+}
+
+/* sets dimensions for the footer on the page */
+footer{
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  border-top: 5px solid mediumaquamarine;
+}
+
+.spacer{
+  margin-left: 65px;
+  margin-right: 65px;
+}
+
+/* **************************************************************** */
+/* ***************** Portfolio images with banner ***************** */
+/* **************************************************************** */
+
+.banner{
+  position: absolute;
+  background-color: sandybrown;
+  opacity: 0.8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  text-align: center;
+  bottom: 20px;
+  width: 100%;
+}
+
+.imgPH {
+  position:relative;
+  background-image: url("./assets/images/300x200placeHolder.png");
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.img1 {
+  position:relative;
+  background-image: url("./assets/images/streamJunkie.png");
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.img2 {
+  position:relative;
+  background-image: url("./assets/images/gitGudTogether.png");
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.img3 {
+  position:relative;
+  background-image: url("./assets/images/questionScreen.png");
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.img4 {
+  position:relative;
+  background-image: url("./assets/images/dayPlanner.png");
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.img5 {
+  position:relative;
+  background-image: url("./assets/images/burgerLogger.png");
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+
+/* **************************************************************** */
+/* ************************** Media Qurey ************************* */
+/* **************************************************************** */
+@media screen and (min-width: 768px){
+#vl {
+  border-left: 0.5px solid aquamarine;
+}
+}
+
+@media screen and (max-width: 480px) {
+  #container {
+    margin: auto;
+}
+}
