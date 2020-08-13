@@ -12,7 +12,7 @@ const Portfolio = () => (
           <div className="img1">
             <p className="banner">
               <a
-                href="https://wleondike.github.io/streamJunkie/"
+                href="https://stream-junkie.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: "black" }}

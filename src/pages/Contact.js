@@ -1,20 +1,53 @@
 import React from "react";
 
 const Contact = () => (
-  <div>
-    <h1>Contact Me</h1>
-    <p>
-      Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
-      Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
-      pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
-      tincidunt bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-      posuere, eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque nec metus
-      vestibulum, egestas massa eu, sollicitudin ipsum. Nulla facilisi. Sed ut erat ligula. Nam
-      tincidunt nunc in nibh dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-      conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus. Etiam vel
-      condimentum magna, quis tempor nulla.
-    </p>
-  </div>
+  <div className="container" id="container">
+      <div className="row">
+        <div className="col-md-9 bg-white p-3 my-5 text-black">
+          <h2 className="mediumaquamarine" id="headerFont">
+            <strong>Contact</strong>
+          </h2>
+          <hr />
+          <form>
+            <div className="form-group">
+              <label for="exampleFormControlInput1" className="mediumaquamarine"
+                >Name</label
+              >
+              <input
+                type="email"
+                className="form-control"
+                id="exampleFormControlInput1"
+                placeholder="John Smith"
+              />
+            </div>
+            <div className="form-group">
+              <label for="exampleFormControlInput1" className="mediumaquamarine"
+                >Email address</label
+              >
+              <input
+                type="email"
+                className="form-control"
+                id="exampleFormControlInput1"
+                placeholder="emailaddress@example.com"
+              />
+            </div>
+            <div className="form-group">
+              <label for="exampleFormControlTextarea1" className="mediumaquamarine"
+                >Message</label
+              >
+              <textarea
+                className="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+          </form>
+          <button type="button" className="btn btn-lg btn-dark" enable>
+            Submit
+          </button>
+        </div>
+      </div>
+      </div>
 );
 
 export default Contact;

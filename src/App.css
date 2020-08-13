@@ -20,6 +20,15 @@ a:hover {
   color: mediumaquamarine;
 }
 
+/* sets dimensions for the footer on the page */
+footer{
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  border-top: 5px solid mediumaquamarine;
+}
+
 /* header and Name font */
 #headerFont{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
@@ -39,15 +48,6 @@ a:hover {
 
 .mediumaquamarine{
     color: mediumaquamarine !important;
-}
-
-/* sets dimensions for the footer on the page */
-footer{
-  position: fixed;
-  bottom: 0;
-  height: 60px;
-  width: 100%;
-  border-top: 5px solid mediumaquamarine;
 }
 
 .spacer{
