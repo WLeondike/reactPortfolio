@@ -1,8 +1,8 @@
 import React from "react";
 import headshot from "../assets/images/headshot.png"
-import resume from "../assets/resume/Full-Stack-Resume.pdf"
 
 const About = () => (
+  // <link rel="icon" type="image/png" href={about} />
   <section className="container-lg" id="container">
       <div className="row">
         <div className="col-md-9 bg-white p-3 my-5 text-black">
@@ -45,45 +45,6 @@ const About = () => (
                 my father introduced me to golfing, but as of recently it has
                 become more of a passion for myself. I try to get out onto the
                 golf course every week I am able to.
-              </p>
-              <p className="text-center">
-                Feel free to check out my
-                <i className="fa fa-file-pdf-o" aria-hidden="true"></i>
-                <a 
-                  href={resume}
-                  target="_blank"
-                  rel="noopener noreferrer" 
-                  >Resume</a>
-                <br />
-                Contact me at:
-                <i className="fa fa-envelope-o" aria-hidden="true"></i>
-                <a 
-                  href="mailto:billyleondike@gmail.com?subject=Mail from my Website"
-                  target="_blank"
-                  rel="noopener noreferrer" 
-                  >billyleondike@gmail.com</a>
-                <i className="fa fa-mobile fa-lg" aria-hidden="true"></i>
-                <a 
-                  href="tel:386-405-4144"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >386-405-4144</a> 
-                <br /> 
-                Follow these links to my
-                <i className="fa fa-linkedin-square" aria-hidden="true"></i>
-                <a
-                  href="https://linkedin.com/in/williamleondike"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >LinkedIn</a>
-                and
-                <i className="fa fa-github" aria-hidden="true"></i>
-                <a 
-                  href="https://github.com/WLeondike" 
-                  target="_blank"
-                  rel="noopener noreferrer" 
-                  >GitHub</a>
-                profile pages.
               </p>
             </section>
           </article>
