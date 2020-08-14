@@ -6,7 +6,7 @@
 
   Email: billyleondike@gmail.com <br>
   GitHub: https://github.com/WLeondike <br>
-  Link to my deployed page: 
+  Link to my deployed page: https://wleondike.github.io/reactPortfolio
   
 
   ## Table of Contents
