@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../assets/resume/Full-Stack-Resume.pdf"
+import resume from "../assets/resume/Full-Stack-Resume.pdf";
 
 const Contact = () => (
   <div className="container" id="container">

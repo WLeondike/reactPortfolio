@@ -1,13 +1,13 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* background image for the page */
 body {
-    background-image: url('./assets/images/beach.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  background-image: url("./assets/images/beach.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* visited link */
@@ -21,7 +21,7 @@ a:hover {
 }
 
 /* sets dimensions for the footer on the page */
-footer{
+footer {
   position: fixed;
   bottom: 0;
   height: 60px;
@@ -30,27 +30,27 @@ footer{
 }
 
 /* header and Name font */
-#headerFont{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+#headerFont {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif !important;
 }
 
 /* clearfix */
 .row::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 /* expands nav bar across the whole screen */
-.navbar{
-  width:100%
+.navbar {
+  width: 100%;
 }
 
-.mediumaquamarine{
-    color: mediumaquamarine !important;
+.mediumaquamarine {
+  color: mediumaquamarine !important;
 }
 
-.spacer{
+.spacer {
   margin-left: 65px;
   margin-right: 65px;
 }
@@ -59,7 +59,7 @@ footer{
 /* ***************** Portfolio images with banner ***************** */
 /* **************************************************************** */
 
-.banner{
+.banner {
   position: absolute;
   background-color: sandybrown;
   opacity: 0.8;
@@ -72,7 +72,7 @@ footer{
 }
 
 .imgPH {
-  position:relative;
+  position: relative;
   background-image: url("./assets/images/300x200placeHolder.png");
   background-repeat: no-repeat;
   width: 300px;
@@ -82,7 +82,7 @@ footer{
 }
 
 .img1 {
-  position:relative;
+  position: relative;
   background-image: url("./assets/images/streamJunkie.png");
   background-repeat: no-repeat;
   width: 300px;
@@ -92,7 +92,7 @@ footer{
 }
 
 .img2 {
-  position:relative;
+  position: relative;
   background-image: url("./assets/images/gitGudTogether.png");
   background-repeat: no-repeat;
   width: 300px;
@@ -102,7 +102,7 @@ footer{
 }
 
 .img3 {
-  position:relative;
+  position: relative;
   background-image: url("./assets/images/questionScreen.png");
   background-repeat: no-repeat;
   width: 300px;
@@ -112,7 +112,7 @@ footer{
 }
 
 .img4 {
-  position:relative;
+  position: relative;
   background-image: url("./assets/images/dayPlanner.png");
   background-repeat: no-repeat;
   width: 300px;
@@ -122,7 +122,7 @@ footer{
 }
 
 .img5 {
-  position:relative;
+  position: relative;
   background-image: url("./assets/images/burgerLogger.png");
   background-repeat: no-repeat;
   width: 300px;
@@ -131,18 +131,17 @@ footer{
   margin-bottom: 20px;
 }
 
-
 /* **************************************************************** */
 /* ************************** Media Qurey ************************* */
 /* **************************************************************** */
-@media screen and (min-width: 768px){
-#vl {
-  border-left: 0.5px solid aquamarine;
-}
+@media screen and (min-width: 768px) {
+  #vl {
+    border-left: 0.5px solid aquamarine;
+  }
 }
 
 @media screen and (max-width: 480px) {
   #container {
     margin: auto;
-}
+  }
 }
